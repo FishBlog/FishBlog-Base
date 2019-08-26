@@ -1,0 +1,35 @@
+# Site settings
+title: "Fish 的博客"
+description: "Welcome to fish’s blog! Have a nice thought."
+
+# Author
+author:
+  name: LikeAFish
+  url:
+  email: fishblog@github.com
+
+# SEPARATOR
+excerpt_separator: <!-- more -->
+
+# Build settings
+markdown: kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+
+# Permalinks
+permalink: /:title
+paginate: 10
+
+# Excludes
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
