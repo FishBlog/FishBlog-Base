@@ -32,4 +32,4 @@ permalink: /:title
 paginate: 10
 
 # Excludes
-exclude: [Gemfile, Gemfile.lock, tale.gemspec]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec, README.md]
